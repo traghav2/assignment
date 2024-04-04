@@ -12,5 +12,6 @@ public class RhombusArea {
         double area = 0.5 * diagonal1 * diagonal2;
         
         System.out.printf("Area is: %.2f", area);
+        in.close();
     }    
 }

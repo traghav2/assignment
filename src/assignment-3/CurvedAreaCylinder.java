@@ -15,5 +15,6 @@ public class CurvedAreaCylinder {
         double volume = 2 * Math.PI * radius * height;
 
         System.out.printf("Volume: %.2f", volume);
+        in.close();
     }    
 }

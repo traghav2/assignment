@@ -15,5 +15,6 @@ public class EquilateralArea {
         area = 0.5 * side * height;
 
         System.out.printf("The area is: %.2f", area);
+        in.close();
     }
 }

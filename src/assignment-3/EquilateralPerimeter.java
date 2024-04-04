@@ -10,6 +10,7 @@ public class EquilateralPerimeter {
         double perimeter = 3 * side;
 
         System.out.printf("Perimeter is: %.2f" , perimeter);
+        in.close();
     }
 }
 

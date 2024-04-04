@@ -18,5 +18,6 @@ public class PyramidVolume {
         double volume = (baseLength* baseWidth* height)/3;
 
         System.out.printf("Volume: %.2f", volume);
+        in.close();
     }    
 }

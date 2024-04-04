@@ -15,5 +15,6 @@ public class WhileInput {
         }
 
         System.out.print("Sum: " + sum);
+        in.close();
     }
 }

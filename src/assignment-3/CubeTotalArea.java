@@ -13,5 +13,6 @@ public class CubeTotalArea{
         double volume = 6 * Math.pow(side, 2);
 
         System.out.printf("Volume: %.2f", volume);
+        in.close();
     }    
 }

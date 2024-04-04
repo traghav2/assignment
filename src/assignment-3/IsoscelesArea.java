@@ -19,5 +19,6 @@ public class IsoscelesArea {
     area = 0.5 * base * height;
 
     System.out.printf("The area of the triangle is: %.2f", area);
+    in.close();
   }
 }

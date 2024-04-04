@@ -16,5 +16,6 @@ public class RectangleArea {
         area = length * width;
 
         System.out.printf("The area of the triangle is: %.2f", area);
+        in.close();
     }
 }

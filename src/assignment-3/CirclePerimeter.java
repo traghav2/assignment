@@ -10,5 +10,6 @@ public class CirclePerimeter {
         double perimeter = 2 * Math.PI * radius;
 
         System.out.printf("Perimeter is: %.2f" , perimeter);
+        in.close();
     }
 }

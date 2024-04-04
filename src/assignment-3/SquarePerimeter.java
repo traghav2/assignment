@@ -10,5 +10,6 @@ public class SquarePerimeter {
         double perimeter = 4 * side;
 
         System.out.printf("Perimeter is: %.2f" , perimeter);
+        in.close();
     }    
 }

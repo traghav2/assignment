@@ -15,5 +15,6 @@ public class ParallelogramArea {
         double area_parallelogram = length * breadth * sin_x;
 
         System.out.printf("Area of the parallelogram = %.2f" ,area_parallelogram);
+        in.close();
     }    
 }

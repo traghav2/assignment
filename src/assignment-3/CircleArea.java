@@ -14,5 +14,6 @@ public class CircleArea {
         area = pi * radius * radius;
 
         System.out.printf("The area of the circle is: %.2f", area);
+        in.close();
       }
 }

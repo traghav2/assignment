@@ -14,5 +14,6 @@ public class CylinderVolume {
         double volume = (Math.PI * Math.pow(radius, 2)) * height;
 
         System.out.printf("Volume: %.2f", volume);
+        in.close();
     }    
 }

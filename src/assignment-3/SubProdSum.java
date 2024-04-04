@@ -19,5 +19,6 @@ public class SubProdSum {
         int result = prodNum - sumNum;
 
         System.out.println("Subtraction of prodNum and sumNum is: " + result);
+        in.close();
     }
 }

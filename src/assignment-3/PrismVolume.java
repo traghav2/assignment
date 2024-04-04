@@ -14,5 +14,6 @@ public class PrismVolume {
         double volume = base * height;
 
         System.out.printf("Volume: %.2f", volume);
+        in.close();
     }    
 }

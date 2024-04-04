@@ -12,5 +12,6 @@ public class Factors {
                 System.out.print(i + " ");
             }
         }
+        in.close();
     }
 }

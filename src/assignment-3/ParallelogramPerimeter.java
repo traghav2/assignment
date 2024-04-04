@@ -13,5 +13,6 @@ public class ParallelogramPerimeter {
         double perimeter = 2*(base+side);
 
         System.out.printf("Perimeter is: %.2f" , perimeter);
+        in.close();
     }
 }

@@ -15,5 +15,6 @@ public class WhileLargest {
         }
 
         System.out.print("Largest: " + largest);
+        in.close();
     }
 }

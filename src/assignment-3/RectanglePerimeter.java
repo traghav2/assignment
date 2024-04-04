@@ -12,5 +12,6 @@ public class RectanglePerimeter {
         double perimeter = 2*(length+width);
 
         System.out.printf("Perimeter is: %.2f" , perimeter);
+        in.close();
     }
 }
